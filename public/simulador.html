@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt_BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Simulador</title>
+    <!-- Google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+
+
+    <link href="assets/css/route.css" rel="stylesheet">
+</head>
+<body ng-app="ricoAPP">
+<!-- Header -->
+<header class="ri-header-gray">
+    <nav class="navbar">
+        <a class="ri-brand" href="/"><img class="img-responsive" src="assets/img/logo-rico-com-vc-negativo.png" alt=""></a>
+
+        <div class="ri-navbar simulador">
+            <a class="ri-search-trigger" href="#"><span class="icon-search"></span></a>
+
+            <ul class="ri-header-social">
+                <li><a href="https://twitter.com/ricocomvc" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li><a href="https://www.facebook.com/Ricocomvc" target="_blank"><span class="icon-facebook-squared"></span></a></li>
+                <li><a href="https://www.youtube.com/ricohomebroker" target="_blank"><span class="icon-youtube"></span></a></li>
+                <li><a href="https://www.linkedin.com/company/rico-com-vc" target="_blank"><span class="icon-linkedin-squared"></span></a></li>
+                <li><a href="#" target="_blank"><span class="icon-rss-squared"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- End of header -->
+
+<div ui-view></div>
+
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/angular-input-masks/angular-input-masks-standalone.min.js"></script>
+<script src="bower_components/angular-br-filters/release/angular-br-filters.min.js"></script>
+<script src="bower_components/br-validations/releases/br-validations.min.js"></script>
+<script src="app/ricoApp.module.js"></script>
+<script src="app/ricoApp.router.js"></script>
+<script src="app/ricoApp.controller.js"></script>
+<script src="app/ricoApp.service.js"></script>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

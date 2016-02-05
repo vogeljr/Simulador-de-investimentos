@@ -1,0 +1,32 @@
+<!-- Container -->
+<div class="container">
+    <div class="ri-simulator-content">
+        <span class="ri-simulator-steps">{{vm.step}} de 4</span>
+        <h3>Simule seus investimentos</h3>
+        <p class="ri-simulator-intro">Qual o valor total (estimado) de seu objetivo?</p>
+
+        <form class="ri-simulator-form" action="#">
+            <input ng-model="objectiveValue" class="form-control" id="ri-simulator-form-value" name="ri-simulator-form-value" type="number" placeholder="R$ 0,00" value="R$ " autocomplete="off" autofocus>
+        </form>
+
+        <a class="btn btn-lg btn-gray" ng-click="vm.value(objectiveValue)">Continuar</a>
+    </div>
+</div>
+<!-- End of container -->
+
+
+
+
+
+
+
+<!--<h1>Valor do Objetivo</h1>-->
+
+<!--<p>{{vm.step}} de 4</p>-->
+
+<!--&lt;!&ndash;<input type="number" class="form-control" ng-model="objectiveValue" ng-model="money"/>&ndash;&gt;-->
+<!--<input type="text" ng-model="objectiveValue" ngMinlength="10" name="field" ng-model="money" ui-money-mask="3">-->
+<!--<input pattern="(\d{3})([\.])(\d{2})">-->
+
+
+<!--<a class="btn btn-lg btn-warning" ng-click="vm.value(objectiveValue)">Continuar</a>-->

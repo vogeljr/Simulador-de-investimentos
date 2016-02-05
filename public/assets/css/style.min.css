@@ -1,0 +1,104 @@
+@font-face{font-family:fontello;src:url(../fonts/fontello.eot?99726688);src:url(../fonts/fontello.eot?99726688#iefix) format('embedded-opentype'),url(../fonts/fontello.woff?99726688) format('woff'),url(../fonts/fontello.ttf?99726688) format('truetype'),url(../fonts/fontello.svg?99726688#fontello) format('svg');font-weight:400;font-style:normal}
+[class*=" icon-"]:before,[class^=icon-]:before{font-family:fontello;font-style:normal;font-weight:400;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-play:before{content:'\e800'}
+.icon-twitter:before{content:'\e801'}
+.icon-facebook:before{content:'\e802'}
+.icon-facebook-squared:before{content:'\e803'}
+.icon-instagram:before{content:'\e804'}
+.icon-linkedin-squared:before{content:'\e805'}
+.icon-rss-squared:before{content:'\e806'}
+.icon-youtube:before{content:'\e807'}
+.icon-search:before{content:'\e808'}
+.icon-phone-outline:before{content:'\e809'}
+.icon-chat:before{content:'\e80a'}
+.ri-footer-item::before,.ri-search-trigger::after{content:"";vertical-align:middle}
+body{font-family:"Open Sans",sans-serif;color:#666;font-size:16px;background:#F1f1f1;padding-top:0!important}
+h1,h2,h3{margin:0;font-family:Montserrat,sans-serif;font-weight:700}
+h1{color:#f08719!important;font-size:45px!important;font-weight:600;word-spacing:4px;margin-top:13px;line-height:60px}
+h2{color:#101599;font-size:30px;font-weight:400}
+dl,ol,p,ul{font-family:inherit}
+a,a:active,a:focus,a:hover,button,input,select,textarea{transition:all linear .2s;text-decoration:inherit}
+.sprites{background:url(../img/sprites.png) no-repeat}
+.navbar{z-index:9998;padding:15px 0;color:#999;background:#fff;border-bottom:3px solid #ff8903;border-radius:0;overflow:hidden}
+.ri-brand{float:left}
+.ri-navbar{float:right;margin-top:10px}
+.ri-navbar-menu{margin-bottom:0;padding-left:0;list-style:none}
+.ri-navbar-menu>li{display:inline}
+.ri-navbar-menu>li>a{display:inline-block;margin-left:30px;color:#979797;font-size:.875em;font-weight:700;text-transform:uppercase}
+.ri-navbar-menu>li>a:active,.ri-navbar-menu>li>a:focus,.ri-navbar-menu>li>a:hover{color:#ff8903;text-decoration:none}
+.ri-navbar-menu>li>a>[class*=" glyphicon-"],.ri-navbar-menu>li>a>[class^=glyphicon-]{margin-right:5px}
+.ri-header-gray .navbar{padding:15px;background-color:#4f4f4f;border-bottom-color:#4f4f4f}
+.ri-header-gray .ri-navbar{margin-top:0}
+.ri-search-trigger{display:inline-block;color:#d8d8d8;font-size:20px}
+.ri-search-trigger::after{display:inline-block;height:45px;margin-right:20px;margin-left:25px;width:1px;background-color:#737373}
+.ri-header-social{display:inline-block;margin-bottom:0;padding-left:0;list-style:none}
+.ri-header-social>li{display:inline}
+.ri-header-social>li>a{display:inline-block;color:#fff;margin-left:5px;font-size:24px;vertical-align:middle;text-decoration:none}
+.ri-header-social>li>a:active,.ri-header-social>li>a:focus,.ri-header-social>li>a:hover{color:#ff8903}
+.jumbotron.app{text-align:center;padding-top:134px;padding-right:120px;padding-left:120px}
+.jumbotron.app p{color:#727272;margin-bottom:15px;margin-top:18px;font-size:16px;line-height:30px;font-weight:200}
+.container-desc{margin:0 auto}
+a.comecar.btn.btn-lg.btn-warning{width:240px;margin-top:20px;height:50px;background:#ff8903;box-shadow:-2px 2px 5px 0 rgba(200,200,200,1)}
+a.comecar.btn.btn-lg.btn-warning:active,a.comecar.btn.btn-lg.btn-warning:focus,a.comecar.btn.btn-lg.btn-warning:hover{background-color:#101599;border-color:#101599}
+.footer{padding:15px 0;width:100%;background:#444}
+.footer a{color:#bababa;font-size:18px}
+.footer a:hover{text-decoration:none}
+.ri-footer-item{display:inline-block}
+.ri-footer-item::before{display:inline-block;height:45px;margin:0 10px;width:1px;background-color:#bababa}
+.ri-footer-social,.ri-footer-telephones{margin-bottom:0;padding-left:0;list-style:none}
+.ri-footer-item:first-child::before{display:none}
+.ri-footer-brand{float:left}
+.ri-footer-infobar{float:right}
+.ri-footer-social{display:inline-block}
+.ri-footer-social>li{display:inline}
+.ri-footer-social>li>a{display:inline-block;height:21px;margin-left:5px;width:21px;color:#444;font-size:12px;line-height:21px;text-align:center;background-color:#bababa;border-radius:50%}
+.ri-footer-social>li>a:active,.ri-footer-social>li>a:focus,.ri-footer-social>li>a:hover{color:#fff;background-color:#ff8b00}
+.ri-footer-chat,.ri-footer-jobs{display:inline-block}
+.ri-footer-chat{margin-right:15px}
+.icon-sprite,.ri-simulator-form{margin-right:auto;margin-left:auto}
+.ri-footer-chat>[class*=icon-],.ri-footer-chat>[class^=icon-]{color:#ff8b00;font-size:30px}
+.ri-footer-telephones{display:inline-block;vertical-align:middle}
+.ri-footer-telephones>[class*=icon-],.ri-footer-telephones>[class^=icon-]{display:inline-block;color:#ff8b00;font-size:24px;margin-top:-40px;vertical-align:middle;-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+.ri-footer-telephones>li{display:inline-block;text-align:center;max-width:90px}
+.ri-footer-telephones>li:last-child{max-width:140px}
+.ri-footer-telephones>li>a,.ri-footer-telephones>li>small{display:block}
+.ri-footer-telephones>li>small{color:#bababa;font-size:10px}
+.ri-simulator-content{padding-top:150px;padding-bottom:150px;text-align:center}
+.ri-simulator-steps{display:inline-block;margin-bottom:10px;padding:10px 20px;background-color:#d2d2d2;border-radius:20px}
+.ri-simulator-content h3{text-transform:uppercase;color:#4a4a4a;font-size:16px;font-weight:700}
+.ri-simulator-intro{margin-bottom:30px;font-size:42px;font-weight:300}
+.ri-simulator-content .btn-gray{padding:15px 50px;color:#fff;background-color:#838383;border-radius:0}
+.ri-simulator-content .btn-gray:active,.ri-simulator-content .btn-gray:focus,.ri-simulator-content .btn-gray:hover{color:#fff;background-color:#ff8903}
+.ri-simulator-content .btn-line-gray{padding:15px 70px;color:#838383;font-size:30px;font-weight:700;text-transform:uppercase;border:2px solid #838383;border-radius:0}
+.ri-simulator-content .btn-line-gray:active,.ri-simulator-content .btn-line-gray:focus,.ri-simulator-content .btn-line-gray:hover{color:#fff;background-color:#838383}
+.ri-simulator-objective-item{display:block;margin-bottom:35px;min-height:200px;padding:20px;text-align:center;background-color:#838383}
+.ri-simulator-objective-legend{color:#fff}
+.icon-sprite{display:block;margin-bottom:15px;height:95px;background-image:url(../img/sprites.png)}
+.icon-money-bag{width:70px;background-position:-240px -7px}
+.icon-vacation{width:110px;background-position:-324px -3px}
+.icon-car{width:130px;background-position:-449px -7px}
+.icon-house{width:90px;background-position:-586px -10px}
+.icon-baby-car{width:100px;background-position:-240px -119px}
+.icon-user{width:80px;background-position:-345px -112px}
+.icon-plain{width:90px;background-position:-437px -125px}
+.ri-simulator-form{display:block;max-width:300px}
+.ri-simulator-form>.form-control{margin-bottom:30px;height:85px;padding:5px;color:#4f4f4f;font-size:60px;font-weight:300;text-align:center;background-color:transparent;border:none;border-radius:0;box-shadow:none}
+@media (min-width:765px){.footer{bottom:0;position:absolute}
+.ri-footer-item{margin-top:15px}
+.jumbotron.app{text-align:center;padding-top:123px;padding-right:28px;padding-left:28px}
+.ri-simulator-content{padding-top:66px;padding-bottom:66px;text-align:center}
+h1{font-size:38px!important;font-weight:100;word-spacing:4px;margin-top:13px;line-height:40px}
+.ri-navbar{float:right;padding-top:0}
+h2{color:#101599;font-size:25px;font-weight:200}
+a.btn.btn-lg.btn-line-gray.ng-binding{white-space:inherit;padding:2%}
+}
+@media (max-width:760px){.ri-footer-item{margin-top:15px}
+.ri-footer-item:nth-last-child(1):before{display:none}
+.jumbotron.app{text-align:center;padding-top:60px;padding-right:28px;padding-left:28px}
+.ri-simulator-intro{margin-bottom:30px;font-size:25px;font-weight:300}
+.ri-simulator-content{padding-top:66px;padding-bottom:66px;text-align:center}
+.ri-navbar.simulador{float:left;padding-top:20px}
+h1{font-size:38px!important;font-weight:100;word-spacing:4px;margin-top:13px;line-height:40px}
+h2{color:#101599;font-size:25px;font-weight:200}
+a.btn.btn-lg.btn-line-gray.ng-binding{white-space:inherit;padding:2%}
+}

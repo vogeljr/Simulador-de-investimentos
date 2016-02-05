@@ -1,0 +1,28 @@
+<!-- Container -->
+<div class="container">
+    <div class="ri-simulator-content">
+        <span class="ri-simulator-steps">{{vm.step}} de 4</span>
+        <h3>Simule seus investimentos</h3>
+        <p class="ri-simulator-intro">Em quanto tempo deseja atingir seu objetivo?</p>
+
+        <form class="ri-simulator-form" action="#">
+            <input ng-model="durationValue" class="form-control" id="ri-simulator-form-time" name="ri-simulator-form-time" type="number" placeholder="2 anos" autocomplete="off" autofocus>
+        </form>
+
+        <a class="btn btn-lg btn-gray" ng-click="vm.duration(durationValue)">Continuar</a>
+    </div>
+</div>
+<!-- End of container -->
+
+
+
+<!--<h1>Duração</h1>-->
+
+
+<!--<p>{{vm.step}} de 4</p>-->
+
+
+<!--<input type="number" class="form-control" ng-model="durationValue" />-->
+
+<!--<a class="btn btn-lg btn-warning" ng-click="vm.duration(durationValue)">Continuar</a>-->
+
