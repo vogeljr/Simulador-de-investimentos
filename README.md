@@ -5,7 +5,7 @@
 >O simulador foi desenvolvido utilizando:
 
 * [AngularJS]
-* [node.js] - ()
+* [node.js]
 * [Express]
 * [Gulp]
 
